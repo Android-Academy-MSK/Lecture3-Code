@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_height"
+    android:orientation="horizontal"
+    android:padding="@dimen/item_padding"
+    tools:showIn="@layout/activity_actor_recycler">
+
+  <ImageView
+      android:id="@+id/avatar"
+      android:layout_width="@dimen/avatar_size"
+      android:layout_height="@dimen/avatar_size"
+      android:contentDescription="@null"
+      android:scaleType="centerCrop"
+      tools:src="@tools:sample/avatars" />
+
+  <TextView
+      android:id="@+id/name"
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:layout_marginEnd="@dimen/name_horizontal_padding"
+      android:layout_marginStart="@dimen/name_horizontal_padding"
+      android:gravity="center_vertical"
+      android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+      tools:text="@tools:sample/full_names" />
+
+  <ImageView
+      android:id="@+id/oscar"
+      android:layout_width="wrap_content"
+      android:layout_height="@dimen/oscar_height"
+      android:contentDescription="@null"
+      android:src="@drawable/oscar"
+      android:visibility="gone"
+      tools:visibility="visible" />
+</LinearLayout>

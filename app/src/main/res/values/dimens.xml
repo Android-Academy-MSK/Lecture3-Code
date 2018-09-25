@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="item_height">108dp</dimen>
+  <dimen name="item_padding">4dp</dimen>
+
+  <dimen name="avatar_size">100dp</dimen>
+  <dimen name="oscar_height">@dimen/avatar_size</dimen>
+  <dimen name="name_horizontal_padding">16dp</dimen>
+</resources>

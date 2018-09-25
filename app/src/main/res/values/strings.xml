@@ -1,0 +1,11 @@
+<resources>
+  <string name="app_name">Lecture3 Lists</string>
+
+  <string name="title_listview">ListView</string>
+  <string name="title_recyclerview">RecyclerView</string>
+
+  <string name="actor_no_oscar">No Oscar for %1$s :-(</string>
+  <string name="actor_with_oscar">And the Oscar goes to… %1$s!</string>
+
+  <string name="menu_action_switch">Switch</string>
+</resources>
